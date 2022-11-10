@@ -1,8 +1,9 @@
 body {
     background-color: bisque;
     text-align: center;
-    animation: reverse 15s;
     
+
+
 }
 
 
@@ -11,40 +12,76 @@ body {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    animation-delay: 2s;
+    
 }
 
 #add {
  background-color: green ;
  color: white;
  font-style: italic;
- text-decoration: wavy ;
  margin: 10px ;
  padding: 10px;
- 
+ box-shadow: 5px 5px 5px 5px black;
+ cursor: pointer;
+ transform: scaleX(1);
+
 }
 
 #edit {
-    background-color: green;
+    background-color: pink;
     color: white;
     margin: 10px;
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    
 }
 
 #remove {
-    background-color: yellow;
-    color: black;
+    background-color: blue;
+    color: white;
     font-style: italic;
     margin: 10px;
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px black;
 
 
 }
 
 #remove-all {
-    background-color: red;
+    background-color: purple;
     color: white;
     font-style: italic;
     margin: 10px;
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+h3 {
+    font-family: fantasy;
+}
+
+li:hover {
+    font-style: italic ;
+    display: inline-flexbox;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scaleX(1);
+    background-color: red;
+    column-span: initial;
+    
+}
+
+#buttons:hover {
+    cursor: col-resize 10px;
+}
+
+
+.itemCompleted {
+  animation: forwards;
+  position: static;
+  text-align: right;
+  stroke: 3px white;
+  
 }
 

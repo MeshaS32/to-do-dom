@@ -53,6 +53,14 @@ removeAll.addEventListener("click", function(event){
 })
 
 
+editButton.addEventListener("click", function(event){
+    event.preventDefault();
+    console.log("Edit button clicked!")
+    if(editButton.innertext === "click"){
+    li.innerText.appendChild("type.value")
+    }
+})
+
 
 
 
